@@ -1,0 +1,24 @@
+
+name: LXServer
+version: "1.0.0"
+slug: lxserver
+description: LXServer Home Assistant Add-on
+url: https://github.com/Yunlliang/lxserver-ha-addon
+arch:
+  - amd64
+startup: services
+boot: auto
+init: false
+
+ports:
+  9527/tcp: 9527
+
+ports_description:
+  9527/tcp: LXServer Web Service
+
+map:
+  - type: addon_config
+    read_only: false
+
+options: {}
+schema: {}
