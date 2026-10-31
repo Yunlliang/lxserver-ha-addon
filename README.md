@@ -29,4 +29,4 @@
 
 本项目是第三方 Home Assistant 加载项封装，并非 LXServer 官方发布版本。
 
-目前尚未完成 HAOS 实机运行验证。
+
