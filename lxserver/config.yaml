@@ -2,8 +2,9 @@
 name: LXServer
 version: "1.0.0"
 slug: lxserver
-description: LXServer Home Assistant Add-on
+description: LX 音乐服务：提供音乐网页、管理后台和音乐数据同步，运行于 Home Assistant；启动后点击“打开网页”即可访问，默认端口 9527。
 url: https://github.com/Yunlliang/lxserver-ha-addon
+webui: http://[HOST]:[PORT:9527]
 arch:
   - amd64
 startup: services
